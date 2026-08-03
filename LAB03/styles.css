@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+    background-color: #fff7ed;
+}
+
+main,
+dl {
+    width: 90%;
+    max-width: 65rem;
+    margin-inline: auto;
+}
+
+#hero {
+    padding: 2rem;
+    background-color: #dbeafe;
+}
+
+.intro {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.profile-photo {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+
+.profile-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.site-nav {
+    padding: 1rem;
+    background-color: #e2e8f0;
+}
+
+.site-nav div {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.card {
+    margin-block: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+}

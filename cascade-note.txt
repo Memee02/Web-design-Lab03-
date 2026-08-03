@@ -1,0 +1,125 @@
+LAB03 – CSS Fundamentals
+Cascade and Property Study Notes
+
+Student ID: ______________________________
+Student name: ____________________________
+
+============================================================
+TASK 2 – CSS PROPERTY STUDY IN DEVELOPER TOOLS
+============================================================
+
+A. Computed box model for <main id="profile" class="card">
+
+Content size: ____________________________
+Padding: _________________________________
+Border: __________________________________
+Margin: __________________________________
+
+B. Property tests
+
+1. Property tested: ______________________
+   Original value: _______________________
+   Temporary value or action: ___________
+   What changed on the page?
+   __________________________________________________________
+   __________________________________________________________
+
+2. Property tested: ______________________
+   Original value: _______________________
+   Temporary value or action: ___________
+   What changed on the page?
+   __________________________________________________________
+   __________________________________________________________
+
+Why are max-width: 100% and height: auto useful for an image?
+____________________________________________________________
+____________________________________________________________
+
+Restore all original CSS values before continuing.
+
+============================================================
+TASK 4A – CASCADE AND SPECIFICITY
+============================================================
+
+Use these temporary rules:
+
+p { color: green; }                   /* 0-0-1 */
+.card p { color: blue; }              /* 0-1-1 */
+#profile.card p { color: red; }       /* 1-1-1 */
+
+A. Prediction — complete this BEFORE refreshing the browser
+
+Predicted winning color: _________________________________
+Predicted winning selector: ______________________________
+Reason:
+____________________________________________________________
+____________________________________________________________
+
+B. Result after refreshing and inspecting the paragraph
+
+Actual winning color: ____________________________________
+Actual winning selector: _________________________________
+Why did this selector win?
+____________________________________________________________
+____________________________________________________________
+
+Screenshot saved as: screenshots/devtools-cascade.png
+
+C. Source-order test
+
+Add a later .card p rule with color: purple.
+
+Did purple win?  Yes / No
+Why?
+____________________________________________________________
+____________________________________________________________
+
+D. Inline-style test
+
+Temporarily add style="color: orange" to the same paragraph.
+
+Which color won? __________________________________________
+Why?
+____________________________________________________________
+____________________________________________________________
+
+Remove the inline style and all temporary color rules.
+
+============================================================
+TASK 4B – BOX MODEL
+============================================================
+
+Use this temporary rule:
+
+.box-test {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #1f4e78;
+}
+
+With box-sizing: border-box
+Observed outer width: _____________________________________
+
+With box-sizing: content-box
+Predicted outer width: ____________________________________
+Observed outer width: _____________________________________
+
+Show the calculation:
+____________________________________________________________
+
+Why are the two outer widths different?
+____________________________________________________________
+____________________________________________________________
+
+Restore box-sizing: border-box and remove the temporary
+.box-test element/rule before submitting.
+
+============================================================
+FINAL CHECK
+============================================================
+
+[ ] I restored all original values changed in Developer Tools.
+[ ] I removed all temporary cascade and box-model test rules.
+[ ] I removed the temporary inline style.
+[ ] My final CSS does not use !important.
+[ ] devtools-cascade.png is included in screenshots/.
