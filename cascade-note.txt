@@ -1,8 +1,8 @@
 LAB03 – CSS Fundamentals
 Cascade and Property Study Notes
 
-Student ID: ______________________________
-Student name: ____________________________
+Student ID: 692115047
+Student name:Aimmika Jankoth
 
 ============================================================
 TASK 2 – CSS PROPERTY STUDY IN DEVELOPER TOOLS
@@ -10,10 +10,10 @@ TASK 2 – CSS PROPERTY STUDY IN DEVELOPER TOOLS
 
 A. Computed box model for <main id="profile" class="card">
 
-Content size: ____________________________
-Padding: _________________________________
-Border: __________________________________
-Margin: __________________________________
+Content size: 990*976.020
+Padding: 24*24
+Border: 1*1
+Margin: 494*16
 
 B. Property tests
 
@@ -29,11 +29,14 @@ B. Property tests
    Temporary value or action: ___________
    What changed on the page?
    __________________________________________________________
-   __________________________________________________________
+   _______________________________________________________
 
 Why are max-width: 100% and height: auto useful for an image?
-____________________________________________________________
-____________________________________________________________
+Answer
+Both of them are useful for an image, here's the reason why,
+The max-width: 100% is to prevent image overflows from its
+container and height: auto is to prevent the image becomes
+distorted.
 
 Restore all original CSS values before continuing.
 
